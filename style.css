@@ -1,0 +1,115 @@
+
+html, body{
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 120%;
+    width:80%;
+    margin: auto;
+    font-family : Arial, Helvetica, sans-serif;
+     
+}
+ 
+nav .navbar-nav li a{
+    color: white !important;
+    font-size: 18px;
+}
+
+.card-img-overlay:hover{
+  
+    color:red;
+    font-size: 25px;
+    font-weight:bold;
+ 
+}
+
+.card-title{
+    color:white;
+    font-family:'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+
+.carousel > .carousel-inner > .carousel-item > img {
+    width:100%;
+    height:360px;
+    }
+
+
+#fellows-wanted-lbl{
+    text-align: center;
+    justify-content: center;
+   
+}
+ 
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+
+.font-size-bars{
+    font-size: 25px;
+}
+
+#Contact{
+    text-align: center;
+}
+
+ 
+ 
+footer .list li a{
+    color: white;
+}
+  
+
+@media only screen and (min-width:961px)
+{
+    #section-carousel{
+        background-color : rgb(150,150,150);
+        height: 100%;
+        height: 20%;
+    }
+
+    #section-fellows-wanted{
+        display: flex;
+        justify-content: space-between;    
+        height: 33%;
+        margin-bottom: 5%;
+    }
+    
+    article{
+        height: 100%;
+        width:33%;
+        background-color: rgb(150,150,150);
+    }
+
+    form{
+        text-align: left;
+    }
+
+    .font-size-bars{
+        font-size: 20px;
+    }
+
+    #Contact{
+        text-align: left;
+    }
+        
+}
+
+
+ 
+
+.font-size-little{
+    font-size: 12px;
+}
+
+ 
+
+HR{
+    background-color:black;
+    height: 2px;   
+}
+
+ 
